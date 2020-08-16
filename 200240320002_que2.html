@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="200240320002_Que2.js"></script>
+    <title>FORM</title>
+</head>
+<style>
+    body {
+        background-image: url("https://picsum.photos/200/300/?blur");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top justify-content-between">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home </a>
+        </div>
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link active" href="#">Contact-us </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row mt-3 justify-content-center " style="height:200px">
+            <div
+                class="col-md-6 col-sm-12 jumbotron border shadow d-flex justify-content-center align-items-center text-dark">
+                <div class="display- text-primary"><b> Sign in here..!!!</b>
+
+                </div>
+                <br>
+                <div style="text-align: center;"> Enjoy the journey with us..!!</div>
+
+
+            </div>
+            <div class="col-md-6 col-sm-12 border jumbotron shadow d-flex justify-content-center align-items-center text-dark"
+                style="background-color: steelblue11;">
+                <form action="" class="mt-5 was-validated">
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" required placeholder="Enter User-Name Here" id="uname">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" required placeholder="Enter Email here" id="email1">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" required placeholder="Enter password here"
+                            id="password1">
+                    </div>
+                    <div class="form-group">
+                        <button class="form-control btn btn-primary btn-block" onclick="readvalue()"> submit
+                        </button>
+                    </div>
+
+                </form>
+
+
+            </div>
+            <div class="col border mt-2 bg-outline-primary justify-content-center align-items-center " id="box"
+                style="background-color: whitesmoke;">
+                USERNAME: <div id="u"> </div>
+                EMAIL : <div id="e"> </div>
+                PASSWORD : <div id="p"> </div>
+                <!--   <div id="temp"> </div> -->
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
